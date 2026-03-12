@@ -1,5 +1,5 @@
 import { Navigation } from "@/components/Navigation/Navigation";
-// import { Header } from "@/components/Header/Header";
+import { Header } from "@/components/Header/Header";
 // import { ReasonsBlock } from "@/components/ReasonsBlock/ReasonsBlock";
 // import { Methodology } from "@/components/Methodology/Methodology";
 // import { WhatYouGet } from "@/components/WhatYouGet/WhatYouGet";
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Navigation />
-      {/* <Header /> */}
+      <Header />
       {/* <div className="my-20">
         <ReasonsBlock />
       </div>
